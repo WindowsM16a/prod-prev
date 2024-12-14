@@ -113,7 +113,7 @@ s {
    - Desktop: 1440px */
 
 .add_to_cart {
-    width: 14rem;
+    width: 100%;
     height: 2.7rem;
     display: flex;
     align-items: center;
@@ -122,6 +122,7 @@ s {
     background-color: hsl(158, 36%, 37%);
     border: none;
     border-radius: 0.5rem;
+    margin-top: 0.9rem;
 }
 
 .add_to_cart:hover {
