@@ -163,6 +163,8 @@ s {
         flex-direction: column;
         max-width: 23rem;
         height: 100%;
+        /* border: 1px solid violet; */
+        border-radius: 1rem;
     }
 
     .preview_info,
@@ -173,7 +175,8 @@ s {
 
     .preview-img img {
         width: 100%;
-        height: 50%;
+        height: 22rem;
+        object-fit: cover;
     }
 
     .add_to_cart {
@@ -187,7 +190,7 @@ s {
         font-weight: 500;
         background-color: hsl(158, 36%, 37%);
         border: none;
-        border-radius: 0.5rem;
+        border-radius: 0.6rem;
     }
 
     .footer {
